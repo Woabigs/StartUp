@@ -1,0 +1,473 @@
+/* specification */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-family-roboto {
+    font-family: 'Roboto Slab', serif;
+}
+
+ul,
+li,
+a {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    line-height: 1.3em;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.button {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #fff;
+    width: 175px;
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: 8px 0px;
+}
+
+.button:hover {
+    color: #fff;
+}
+
+/* header */
+
+#header {
+    background: url('../img/bg.png') no-repeat center top/cover;
+    height: 100vh;
+    color: #fff;
+}
+
+.startUP__paragraphLogo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.menu__items {
+    margin-top: 45px;
+}
+
+.menu__item {
+    margin-left: 30px;
+}
+
+.menu__item a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu__item a:hover {
+    color: #000;
+}
+
+.header__info {
+    margin-top: 210px;
+    text-align: center;
+    margin-bottom: 260px;
+}
+
+.header__title {
+    font-size: 48px;
+}
+
+.services__content {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+.header__paragraph {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.services__info {
+    text-align: center;
+}
+
+.offer__title {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.strip {
+    background: #555555;
+    height: 2px;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.services__paragraph {
+    font-size: 16px;
+    margin-bottom: 65px;
+}
+
+.typography_content {
+    text-align: center;
+}
+
+.code__content {
+    text-align: center;
+}
+
+.support__content {
+    text-align: center;
+}
+
+.services__circle {
+    height: 86px;
+    width: 86px;
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    display: block;
+    margin: 0px auto;
+}
+
+.sircle__img {
+    display: block;
+    margin-top: 18px;
+    margin-left: 17px;
+}
+
+.circle__typography {
+    background: #c0301c;
+}
+
+.offer__title {
+    font-size: 16px;
+}
+
+.offer__paragraph {
+    font-size: 14px;
+}
+
+/* section - about__us */
+
+.about__us {
+    background: #f8f8f8;
+    color: #555;
+}
+
+.about__us__info {
+    text-align: center;
+    margin-bottom: 73px;
+}
+
+.about__big__paragraph {
+    margin-bottom: 58px;
+}
+
+.big__paragraph {
+    font-size: 14px;
+}
+
+.employer {
+    padding-left: 17px;
+}
+
+.employer__name {
+    text-align: center;
+    font-weight: 700;
+    color: #555;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.employer__skill {
+    text-align: center;
+    color: #555;
+    font-size: 13px;
+    margin-bottom: 100px;
+}
+
+.lattest__works {
+    margin-bottom: 70px;
+}
+
+.works__title {
+    text-align: center;
+}
+
+.work__item {
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+.work__item a {
+    color: #000;
+    text-decoration: none;
+}
+
+.work__item a:hover {
+    color: #c0301c;
+}
+
+.img__section {
+    margin-bottom: 27px;
+}
+
+.talk__project {
+    background: url(../img/backgroundWork.png) no-repeat center center;
+    padding: 100px 0px 100px 0px;
+}
+
+.talk__info {
+    margin: 0 auto;
+}
+
+.talk__title {
+    color: red;
+    width: 440px;
+    text-align: center;
+}
+
+.talk__button {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.talk__button:hover {
+    color: royalblue;
+    border: 2px solid royalblue;
+}
+
+/* section blogpost */
+
+.blog__post {
+    margin-bottom: 100px;
+}
+
+.blogpost__info {
+    text-align: center;
+}
+
+.blogpost__paragraph {
+    padding-bottom: 70px;
+}
+
+.startUp__time {
+    width: 73px;
+    height: 73px;
+    border: 2px solid #777;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: #777777;
+    font-weight: 700;
+}
+
+.startUp_date {
+    font-size: 24px;
+}
+
+.startUp__month {
+    font-size: 14px;
+}
+
+.startUp__paragraph {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.redtext {
+    color: #c0301c
+}
+
+.startUp__big__paragraph {
+    padding-top: 30px;
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.startUp_reference {
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.startUp_reference:hover {
+    color: #c0301c;
+    text-decoration: none;
+}
+
+.hr {
+    margin: 40px 0px 40px 0px;
+}
+
+/* section - feedbacks */
+
+.feedback {
+    background: #f8f8f8;
+    padding: 100px 0px;
+}
+
+.brands__img {
+    margin-bottom: 60px;
+}
+
+.brand__img {
+    margin-right: 40px;
+}
+
+.feedback__content {
+    text-align: center;
+}
+
+.feedback__paragraph {
+    font-size: 18px;
+    color: #555555
+}
+
+.feedback__from {
+    font-size: 20px;
+    color: #555555
+}
+
+.circles {
+    margin-top: 30px;
+}
+
+.circle__cont {
+    background: #555555;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+
+.contact__form{
+    padding-bottom: 100px;
+}
+
+.contact__info {
+    text-align: center;
+}
+
+.contact__paragraph {
+    margin-bottom: 65px;
+}
+
+.circle__active {
+    background: #c0301c;
+}
+
+.contact__icon {
+    margin-right: 20px;
+}
+
+.contact__coordinates p {
+    font-size: 14px;
+}
+
+.contact__coordinates p:first-child {
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+.contact__coordinates p:nth-child(2) {
+    color: #555555;
+}
+
+.form__input {
+    width: 350px;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    padding: 8px 0px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding-left: 19px;
+    color: #7f7f7f;
+}
+
+.text__area {
+    width: 715px;
+    height: 100px;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    padding: 8px 0px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding-left: 19px;
+    color: #7f7f7f;
+}
+
+.send__button{
+    border: 1px solid #000;
+    background: #fff;
+    width: 168px;
+    padding: 12px 7px;
+    margin-left: 14px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.warning__paragraph{
+    font-size: 12px;
+    width: 700px;
+    text-decoration: underline;
+}
+
+.footer {
+    background: #c0301c;
+    padding: 100px 0px;
+}
+
+.twitter__circle {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.twitter__circle:last-child {
+    margin-right: 0px;
+}
+
+.twitter {
+    display: block;
+    margin: 0px auto;
+    margin-top: 8px;
+}
+
+.footer__strip {
+    background: #fff;
+}
+
+.footer__paragraph {
+    text-align: center;
+    color: #fff;
+}
